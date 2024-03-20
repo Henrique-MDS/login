@@ -2,6 +2,7 @@
 
 
 /*VERSÃO PARA TABLET*/
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
     body {
@@ -10,6 +11,7 @@
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -28,6 +30,8 @@
     }
 }
 
+/*CONFIGS PARA TELAS GRANDES*/
+
 @media screen and (min-width: 1024px) {
 
     body {
@@ -36,6 +40,7 @@
 
     section#login {
         width: 950px;
+        height: 350px;
     }
     
     section#login > div#imagem {
